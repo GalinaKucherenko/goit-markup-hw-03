@@ -32,17 +32,26 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
 }
   a {
     text-decoration: none;
   }
-  ul, ol {
-    list-style: none;
+  ul {
     padding: 0;
     margin: 0;
   }
+  li {
+    list-style: none;
+  }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+    margin: 0;
+    }
   link {
     cursor: pointer;
   }
@@ -61,7 +70,11 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
   }
-
+  button {
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+  }
   /* ----------Header---------- */
 .header {
     background: #FFF;
@@ -94,9 +107,7 @@ img {
 .header-nav-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 40px;
-    margin-right: 76px;
 }
 .header-nav-item {
     
